@@ -13,7 +13,7 @@ Entendre de manera bàsica com funciona React.
 Saber què és un component.
 Saber què són els props.
 Fer el teu primer projecte amb React.
-```
+
 
 ### Nivell 1 🔧
 
@@ -150,15 +150,15 @@ unidad 6 - cat 8
 
 
 
----
-⌨️ con ❤️ por [Cesar](https://github.com/cesar-itacademy) 😊
-
 ### Nivell 2 🔧
 
 - Exercici 3
 En lloc de harcodear (escriure directament) el valor del component en el seu interior, li ho passarem com prop des del component App.
 
 El resultat hauria de continuar sent el mateix. L’única cosa que canviarà serà la implementació del codi.
+
+
+
 
 ### Nivell 30 🔧
 
