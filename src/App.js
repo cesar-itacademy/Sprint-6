@@ -1,16 +1,24 @@
 
 // Componente Book 
 import Book from './book';
+import Library from './Library.json'
 
-//Nivell 2 
-// En lloc de harcodear (escriure directament) el valor del component en el seu interior, li ho passarem com prop des del component App.
-// El resultat hauria de continuar sent el mateix. L’única cosa que canviarà serà la implementació del codi.
+//Nivell 3
+// Llegirem els llibres que mostrarà la nostra aplicació des d’un fitxer JSON. Per això, importarem aquest fitxer en la nostra aplicació i ho recorrerem amb una estructura .map.
+
 
 export default () => {
 
     return (
         <div>
-            <Book title="Viatge a la lluna" />
+            {Library.map(book => {
+                return(
+                <>
+                    <h3>{book.title}</h3>
+                    <p>{book.author}</p>
+                </>
+                )
+            })}
         </div>
     );
 }; 
