@@ -1,5 +1,7 @@
-export default ()=> {
+const Book = (props)=> {
     return (
-        <h1>Viatge a la lluna</h1>
+        <h1>{props.title}</h1>
     );
 }   
+
+export default Book;
